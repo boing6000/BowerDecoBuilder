@@ -1,0 +1,48 @@
+{
+  "name": "DecoBuild",
+  "authors": [
+    "boing6000 <boing6000@hotmail.com>"
+  ],
+  "description": "Builder HTML with drg and drop",
+  "version": "0.0.1",
+  "main": [
+    "dist/deco.packages.builder.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "overrides": {
+    "font-awesome": {
+      "main": "./css/font-awesome.css"
+    }
+  },
+  "dependencies": {
+    "angular-sanitize": "~1.4.5",
+    "DecoHelper": "*",
+    "DecoCore": ">=0.0.11",
+    "jquery": "~1.11.0",
+    "jquery-ui": "^1.11.4"
+  },
+  "devDependencies": {
+    "tether": "^1.2.0",
+    "bootstrap": "v4.0.0-alpha.2",
+    "angular": ">=1.4.5",
+    "angular-animate": "~1.4.5",
+    "angular-cookies": "~1.4.5",
+    "angular-ui-router": "~0.2.13",
+    "angular-ui-utils": "~0.2.3",
+    "angular-bootstrap": ">=1.1.2",
+    "angularUtils-pagination": "angular-utils-pagination#~0.9.1",
+    "moment": "~2.10.3",
+    "font-awesome": ">=4.5.0"
+  },
+  "resolutions": {
+    "angular": ">=1.4.5",
+    "jquery": ">= 2.1.0",
+    "font-awesome": ">=4.5.0"
+  }
+}
